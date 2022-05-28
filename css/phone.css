@@ -1,0 +1,72 @@
+body {
+  background-color: aliceblue;
+}
+#navBar {
+  flex-direction: column;
+}
+#navBar ul li a {
+  font-size: 1rem;
+  padding: 0px 7px;
+  padding-bottom: 12px;
+}
+#services {
+  flex-direction: column;
+}
+#services .box {
+  margin: 10px;
+}
+#services .box p {
+  font-family: "Bree Serif", serif;
+}
+#home {
+  height: 500px;
+  padding: 3px 68px;
+}
+
+#home h1 {
+  font-family: "Bree Serif", serif;
+}
+#home::before {
+  height: 650px;
+}
+#home p {
+  font-size: 1rem;
+}
+#client-section::before {
+  height: 626px;
+}
+#client-section {
+  height: 606px;
+}
+.clients {
+  flex-wrap: wrap;
+  height: auto;
+}
+.clients img {
+  width: 100px;
+}
+.client-item {
+  padding: 21px;
+  font-family: "Bree Serif", serif;
+}
+.h-primary {
+  font-size: 3rem;
+  font-family: "Balsamiq Sans", cursive;
+}
+.btn {
+  width: 200px;
+  height: 50px;
+  font-size: 1.1rem;
+  padding: 4px 8px;
+}
+textarea {
+  width: 90%;
+}
+.contact-box form {
+  width: 80%;
+}
+footer {
+  padding: 20px;
+  font-size: 20px;
+  font-family: "Bree Serif", serif;
+}
